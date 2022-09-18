@@ -1,0 +1,25 @@
+.nav {
+    position: absolute right;
+    width: 100%;
+    height: 50px;
+    float: right;
+    display: flex;
+    flex-wrap: row nowrap;
+    justify-content: flex-end;
+    column-gap: 60px;
+    margin-top: 20px;
+    margin-right: 40px;
+  }
+
+
+.nav a {
+    text-decoration: none;
+    color: palevioletred;
+    font-family: "Heebo", sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  
+  .nav a:hover {
+    color: #735d78;
+  }
