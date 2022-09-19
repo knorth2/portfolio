@@ -5,6 +5,7 @@ import linkedin from '../assets/graphics/linkedin.png'
 import resume from '../assets/files/KayciNorth_Resume-2022.pdf'
 
 
+
 const Connect = () =>{
     return(
         <div className='connect'>

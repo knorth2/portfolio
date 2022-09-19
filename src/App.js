@@ -12,9 +12,9 @@ const App = () => {
 <div className='render-container'>
   <h1>Kayci North</h1>
   <About />
-  
   <Portfolio />
   <Connect />
+  
   </div>
   </>
   );
