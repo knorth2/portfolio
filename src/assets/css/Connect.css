@@ -1,7 +1,8 @@
 
   
-  .connect h4 {
+  .connect h3 {
     color: black;
+    margin-left: 10px;
   }
   
   
@@ -17,9 +18,10 @@
   .connect-links {
     display: flex;
     flex-wrap: row nowrap;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     column-gap: 10px;
     margin-top: 18px;
+    margin-left: 20px;
   }
   
   .connect-links img {
@@ -41,4 +43,18 @@
   .connect-links a:hover {
     font-weight: 400;
     color: #735d78;
+  }
+  .footer-button {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: palevioletred;
+    border: solid 2px palevioletred;
+    padding: 8px 6px;
+    border-radius: solid 5px;
+  }
+  
+  .footer-button:hover {
+    background-color: palevioletred;
+    border: solid 2px black;
   }

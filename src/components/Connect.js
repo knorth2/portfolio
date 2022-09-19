@@ -2,6 +2,8 @@ import '../assets/css/Connect.css';
 import email from '../assets/graphics/email.png'
 import github from '../assets/graphics/github2.png'
 import linkedin from '../assets/graphics/linkedin.png'
+import resume from '../assets/files/KayciNorth_Resume-2022.pdf'
+
 
 const Connect = () =>{
     return(
@@ -39,6 +41,14 @@ const Connect = () =>{
           rel="noreferrer"
         ><img alt="linkedin icon" src={linkedin}></img>
         </a>
+      </div>  
+      <div className='connect-links'>
+      <a
+          href={resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          className='footer-button'
+        >download resume</a>
       </div>  
         </div>
         
