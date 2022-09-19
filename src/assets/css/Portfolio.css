@@ -15,4 +15,24 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
+  .project__wrapper{
+    display: flex;
+    flex-wrap: row nowrap;
+    justify-content: space-between;
+    text-align: center;
+
+   
+}
+.projectImg{
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+    /* flex-wrap: row nowrap; */
+    justify-content: space-between;
+    text-align: center;
   
+ }
+.project__description{
+   text-align: center;
+
+}
