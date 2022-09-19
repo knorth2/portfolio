@@ -1,0 +1,44 @@
+
+  
+  .connect h4 {
+    color: black;
+  }
+  
+  
+  
+  .connect-underline {
+    height: 3px;
+    background-color:  palevioletred;
+    width: 55%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .connect-links {
+    display: flex;
+    flex-wrap: row nowrap;
+    justify-content: flex-end;
+    column-gap: 10px;
+    margin-top: 18px;
+  }
+  
+  .connect-links img {
+    width: 24px;
+    height: 24px;
+    margin-top: -1px;
+  }
+  
+  .connect-links img:hover {
+    cursor: pointer;
+  }
+  
+  .connect-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .connect-links a:hover {
+    font-weight: 400;
+    color: #735d78;
+  }

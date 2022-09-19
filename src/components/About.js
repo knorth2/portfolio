@@ -5,7 +5,7 @@ import github from '../assets/graphics/skills/github.png'
 import html from '../assets/graphics/skills/html.png'
 import javascript from '../assets/graphics/skills/javascript.png'
 import mongodb from '../assets/graphics/skills/mongodb.png'
-// import mongoose from '../assets/graphics/skills/mongoose.png'
+import mongoose from '../assets/graphics/skills/mongoose.png'
 import node from '../assets/graphics/skills/node.png'
 import reactrouter from '../assets/graphics/skills/react-router.png'
 import react from '../assets/graphics/skills/react.png'
@@ -49,6 +49,10 @@ const About = (props) => {
           <div className='skill-icon'>
             <img alt='express' src={express}></img>
             <p>Express</p>
+          </div>
+          <div className='skill-icon'>
+            <img alt='mongo d b' src={mongoose}></img>
+            <p>Mongooose</p>
           </div>
           <div className='skill-icon'>
             <img alt='mongo d b' src={mongodb}></img>

@@ -1,0 +1,18 @@
+.portfolio-container {
+    text-align: right;
+  }
+  
+  .portfolio-container h3 {
+    color: black;
+    margin-right: 20px;
+  }
+  
+  .portfolio-underline {
+    height: 3px;
+    background-color: palevioletred;
+    width: 55%;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
