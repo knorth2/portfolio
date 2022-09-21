@@ -13,9 +13,8 @@ const Connect = () =>{
             <div className="connect-underline"></div>
             <p></p>
             <div className='connect-links'>
-        <a href="mailto:kayci.north@gmail.com">kayci.north@gmail.com</a>
-        <a href="mailto:kayci.north@gmail.com"><img alt="email icon" src={email}></img>
-        </a>
+        <span>kayci.north@gmail.com</span><img alt="email icon" src={email}></img>
+        
       </div>
       <div className='connect-links'>
         <a

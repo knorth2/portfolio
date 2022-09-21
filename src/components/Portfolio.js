@@ -10,7 +10,7 @@ const Portfolio = () => {
       {/* </div> */}
       {/* <div className="portfolio-underline"></div> */}
       <div className="project_wrapper">
-        <a href="https://knorth2.github.io/Project_1_Memory_Game/"><img className="projectImg" src={memory} alt="img of project"></img></a>
+        <a href="https://knorth2.github.io/Project_1_Memory_Game/" target="_blank"><img className="projectImg" src={memory} alt="img of project"></img></a>
         <div className="project_description">
         <h4 className="proj_description_title">Memory Game</h4>
         <h5 className="tech_used">HTML, CSS & JavaScript</h5>
@@ -22,7 +22,7 @@ const Portfolio = () => {
         </div>
         
 
-        <a href="https://mindful-deploy-app.herokuapp.com/mindful"><img className="projectImg" src={mindful} alt="img of project"></img></a>
+        <a href="https://mindful-deploy-app.herokuapp.com/mindful" target="_blank"><img className="projectImg" src={mindful} alt="img of project"></img></a>
         <div className="project_description">
         <h4 className="proj_description_title">Mindful</h4>
         <h5 className="tech_used">
