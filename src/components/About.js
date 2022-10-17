@@ -1,7 +1,12 @@
 import '../assets/css/About.css';
+import python from '../assets/graphics/skills/python.png'
+import sql from '../assets/graphics/skills/sql-server.png'
+import postgres from '../assets/graphics/skills/postgres.png'
+import flask from '../assets/graphics/skills/flask.png'
 import css from '../assets/graphics/skills/css.png'
 import express from '../assets/graphics/skills/express.png'
 import github from '../assets/graphics/skills/github.png'
+import git from '../assets/graphics/skills/git.png'
 import html from '../assets/graphics/skills/html.png'
 import javascript from '../assets/graphics/skills/javascript.png'
 import mongodb from '../assets/graphics/skills/mongodb.png'
@@ -17,11 +22,30 @@ const About = (props) => {
 <h3>About</h3>
 <div className='about-underline'></div>
 <div className='about-container'>
-<p>Hi! I'm Kayci, a full-stack software engineer who really loves organization and a good challenge. </p>
+<p>Hi! I'm Kayci, a full-stack software engineer who really loves organization and a good challenge. <br></br>
+Currently <strong> very excited </strong>to completely turn my world upside down to persue a new career in software engineering. <br></br>
+15 years of professional expertise specializing in detail 🤓<br></br>
+Over a decade of leadership experience</p>
 </div>
 <h4>Skills</h4>
 
 <div className='skills-container'>
+<div className='skill-icon'>
+            <img alt='python' src={python}></img>
+            <p>Python</p>
+          </div>
+          <div className='skill-icon'>
+            <img alt='sql' src={sql}></img>
+            <p>SQL</p>
+          </div>
+          <div className='skill-icon'>
+            <img alt='postgres' src={postgres}></img>
+            <p>Postgres</p>
+          </div>
+          <div className='skill-icon'>
+            <img alt='flask' src={flask}></img>
+            <p>Flask</p>
+          </div>
 <div className='skill-icon'>
             <img alt='html' src={html}></img>
             <p>HTML</p>
@@ -59,9 +83,14 @@ const About = (props) => {
             <p>MongoDB</p>
           </div>
           <div className='skill-icon'>
+            <img alt='git' src={git}></img>
+            <p>Git</p>
+          </div>
+          <div className='skill-icon'>
             <img alt='github' src={github}></img>
             <p>GitHub</p>
           </div>
+          
 </div>
 </div>
 

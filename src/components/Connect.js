@@ -2,7 +2,7 @@ import '../assets/css/Connect.css';
 import email from '../assets/graphics/email.png'
 import github from '../assets/graphics/github2.png'
 import linkedin from '../assets/graphics/linkedin.png'
-import resume from '../assets/files/KayciNorth_Resume-2022.pdf'
+import resume from '../assets/files/Kayci_North_Resume_2022.pdf'
 
 
 
@@ -11,7 +11,7 @@ const Connect = () =>{
         <div className='connect'>
             <h3>Connect</h3>
             <div className="connect-underline"></div>
-            <p></p>
+          <div className='connectContainer'>
             <div className='connect-links'>
         <span>kayci.north@gmail.com</span><img alt="email icon" src={email}></img>
         
@@ -51,6 +51,7 @@ const Connect = () =>{
         >download resume</a>
       </div>  
         </div>
+        </div> 
         
     )
 }

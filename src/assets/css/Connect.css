@@ -3,9 +3,13 @@
   .connect h3 {
     color: black;
     margin-left: 10px;
+    
   }
   
-  
+  .connectContainer{
+    margin-top: 50px;
+    margin-left: 30px;
+  }
   
   .connect-underline {
     height: 3px;
@@ -48,13 +52,13 @@
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
-    color: palevioletred;
-    border: solid 2px palevioletred;
+    color:  palevioletred;
+    border: solid 2px  black;
     padding: 8px 6px;
     border-radius: solid 5px;
   }
   
   .footer-button:hover {
-    background-color: palevioletred;
+    background-color:  palevioletred;
     border: solid 2px black;
   }

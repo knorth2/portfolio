@@ -1,6 +1,6 @@
 .about-underline {
     height: 3px;
-    background-color:  palevioletred;
+    background-color:   palevioletred;
     width: 55%;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -12,14 +12,7 @@
     margin-left: 10px
   }
   
-  .about h4 {
-    color: black;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 25px;
-    text-decoration: underline gray;
-    
-  }
+  
   .about-container p {
     line-height: 34px;
     
@@ -34,8 +27,9 @@
     flex-wrap: row nowrap;
     justify-content: space-between;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+  
   }
 
   .skill-icon p {
@@ -48,4 +42,12 @@
   }
   .skill-icon p {
     font-size: 1vw;
+  }
+  .about h4 {
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 25px;
+    text-decoration: underline black;
+    
   }

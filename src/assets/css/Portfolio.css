@@ -1,34 +1,39 @@
 /* .portfolio-container{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
   flex-wrap: wrap;
-  align-items: center; 
+  perspective: 1000px; 
+ 
 } */
   
+
   .portfolioh3 {
     color: black;
-    margin-right: 20px;
-    text-align: center;
-    text-decoration: underline;
+    margin-left: 10px
     
   }
   
   .portfolio-underline {
     height: 3px;
-    background-color: palevioletred;
+    background-color:   palevioletred;
     width: 55%;
-    float: right;
     margin-top: 10px;
     margin-bottom: 20px;
   }
   .project_wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; 
+   margin-bottom: 40px;
 }
 
 .projectImg{
     width: 30%;
     margin-top: 50px;
+    margin-left: 650px;
+    border-radius: 5px;
+    
  }
  .projectImg:hover{
   opacity: 0.4;
@@ -38,3 +43,4 @@
 .proj_description_title, .tech_used, .proj_description_p{
   text-align: center;
 }
+
