@@ -1,4 +1,4 @@
-/* .portfolio-container{
+/* .project_wrapper{
   display: grid;
   grid-template-columns: repeat(3,auto);
   grid-gap: 40px;
@@ -9,7 +9,15 @@
   perspective: 1000px; 
  
 } */
-  
+/* .project_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+ /* .portfolio-container{
+  display: flex;
+    justify-content: center;
+ }  */
 
   .portfolioh3 {
     color: black;

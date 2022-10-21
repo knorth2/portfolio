@@ -23,7 +23,7 @@ const About = (props) => {
 <div className='about-underline'></div>
 <div className='about-container'>
 <p>Hi! I'm Kayci, a full-stack software engineer who really loves organization and a good challenge. <br></br>
-Currently <strong> very excited </strong>to completely turn my world upside down to persue a new career in software engineering. <br></br>
+Strong skills in problem solving and critical thinking. <br></br>
 15 years of professional expertise specializing in detail 🤓<br></br>
 Over a decade of leadership experience</p>
 </div>
