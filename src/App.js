@@ -16,7 +16,7 @@ const App = () => {
   <h1>Kayci North</h1>
   
   <Routes> 
-  <Route path='/home' element={<Home />} />
+  <Route path='/portfolio' element={<Home />} />
   <Route path='/about' element={<About />} />
   <Route path='/connect' element={<Connect />} /> 
   <Route path='/projects' element={<Portfolio />} />
