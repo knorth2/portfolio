@@ -22,6 +22,7 @@ const About = (props) => {
 <h3>About</h3>
 <div className='about-underline'></div>
 <div className='about-container'>
+<img alt="kayci headshot" src="https://i.imgur.com/ZKphsDC.jpg"></img>
 <p>Hi! I'm Kayci, a full-stack software engineer who really loves organization and a good challenge. <br></br>
 Strong skills in problem solving and critical thinking. <br></br>
 15 years of professional expertise specializing in detail 🤓<br></br>
@@ -87,7 +88,12 @@ Over a decade of leadership experience</p>
             <p>Git</p>
           </div>
           <div className='skill-icon'>
+          <a
+          href="https://github.com/knorth2"
+          target="_blank"
+          rel="noreferrer">
             <img alt='github' src={github}></img>
+            </a>
             <p>GitHub</p>
           </div>
           

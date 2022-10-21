@@ -5,7 +5,7 @@ import hh from "../assets/files/happy-hound2.png";
 
 const Portfolio = () => {
   return (
-    <>
+    
     <div className="portfolio-container">
       <h3 className="portfolioh3">Projects</h3>
      
@@ -62,7 +62,7 @@ const Portfolio = () => {
         </div>
       </div>
        </div>
-      </>
+     
   );
 };
 

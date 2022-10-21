@@ -48,7 +48,7 @@ const Connect = () =>{
           target="_blank"
           rel="noopener noreferrer"
           className='footer-button'
-        >download resume</a>
+        >resume</a>
       </div>  
         </div>
         </div> 
