@@ -2,67 +2,157 @@ import "../assets/css/Portfolio.css";
 import memory from "../assets/files/memory_game.png";
 import mindful from "../assets/files/mindful.png";
 import hh from "../assets/files/happy-hound2.png";
+import { useState } from "react";
 
 const Portfolio = () => {
+  const [showMemory, setShowMemory] = useState(false);
+  const [showMindful, setShowMindful] = useState(false);
+  const [showHappy, setShowHappy] = useState(false);
   return (
-    
-    <div className="portfolio-container">
-      <h3 className="portfolioh3">Projects</h3>
-     
+    <div id="portfolio" className="portfolio">
+      <h3>Projects</h3>
       <div className="portfolio-underline"></div>
-      <div className="project_wrapper">
-        <a href="https://knorth2.github.io/Project_1_Memory_Game/" target="_blank"><img className="projectImg" src={memory} alt="img of project"></img></a>
-        <div className="project_description">
-        <h4 className="proj_description_title">Memory Game</h4>
-        <h5 className="tech_used">HTML, CSS & JavaScript</h5>
-        <p className="proj_description_p">
-        Time to test your mental strength with the classic memory game,
-          Concentration. This is a two-person game. 
-          <br></br> 
-          <br></br> 
-          <a href='https://github.com/knorth2/Project_1_Memory_Game' target="_blank">Repository</a> 
-        </p>
+      <div className="portfolio-container">
+        <div
+          className="portfolio-box"
+          onMouseLeave={() => setShowMemory(false)}
+        >
+          
+          <img
+            onClick={() => setShowMemory(true)}
+            alt="ski weather site"
+            src={memory}
+          ></img>
+
+          {showMemory && (
+            <div className="dropdown">
+              <div className="section-line"></div>
+              <p>
+                Time to test your mental strength with the classic two-person memory game,
+                Concentration.
+              </p>
+              <div className="code-list">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Vanilla Javascript</p>
+                <a
+                  href="https://knorth2.github.io/Project_1_Memory_Game/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  view site
+                </a>
+                <a
+                  href="https://github.com/knorth2/Project_1_Memory_Game"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  github
+                </a>
+              </div>
+              <div className="section-line"></div>
+            </div>
+          )}
+          <h5 onClick={() => setShowMemory(true)}>Memory Game</h5>
         </div>
+
+        <div
+          className="portfolio-box"
+          onMouseLeave={() => setShowMindful(false)}
+        >
+          
+          <img
+            onClick={() => setShowMindful(true)}
+            alt="ski weather site"
+            src={mindful}
+          ></img>
+
+          {showMindful && (
+            <div className="dropdown">
+              <div className="section-line"></div>
+              <p>
+                Mindful is a daily journal entry app that tracks activity and
+                mindfulness to hopefully redirect your thoughts on a more
+                positive path.
+              </p>
+              <div className="code-list">
+                <p>Node.js</p>
+                <p>Mongoose</p>
+                <p>Express</p>
+                <p>EJS with 7 RESTful routes and full CRUD</p>
+                <a
+                  href="https://mindful-deploy-app.herokuapp.com/mindful"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  view site
+                </a>
+                <a
+                  href="https://github.com/knorth2/project_2_Mindful"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  github
+                </a>
+              </div>
+              <div className="section-line"></div>
+            </div>
+          )}
+          <h5 onClick={() => setShowMindful(true)}>Memory Game</h5>
+        </div>
+
+        <div className="portfolio-box" onMouseLeave={() => setShowHappy(false)}>
+          
+          <img
+            onClick={() => setShowHappy(true)}
+            alt="ski weather site"
+            src={hh}
+          ></img>
+
+          {showHappy && (
+            <div className="dropdown">
+              <div className="section-line"></div>
+              <p>
+                De-Coupled MERN stack: As group lead, I organized and delegated
+                tasks to fellow colleagues. I built the entire backend utilizing
+                full CRUD functionality. 
+              </p>
+              <div className="code-list">
+                <p>Mongoose</p>
+                <p>Express</p>
+                <p>React</p>
+                <p>Node.js</p>
+                <a
+                  href="https://happy-hound-react-app.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  view site
+                </a>
+                <a
+                  href="https://github.com/mdawood832/Happy-Hound-Front-End"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  github frontend
+                </a>
+                <a
+                  href="https://github.com/mdawood832/Happy-Hound-Back-End"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  github backend
+                </a>
+              </div>
+              <div className="section-line"></div>
+            </div>
+          )}
+          <h5 onClick={() => setShowHappy(true)}>Memory Game</h5>
+        </div>
+
         
-
-      <a href="https://mindful-deploy-app.herokuapp.com/mindful" target="_blank"><img className="projectImg" src={mindful} alt="img of project"></img></a>
-        <div className="project_description">
-        <h4 className="proj_description_title">Mindful</h4>
-        <h5 className="tech_used">
-          Node.js, Mongoose, Express, EJS with 7 RESTful routes and full CRUD
-        </h5>
-        <p className="proj_description_p">
-          Mindful is a daily journal entry app that tracks activity and
-          mindfulness to hopefully redirect your thoughts on a more positive
-          path.
-          <br></br>
-          <br></br> 
-          <a href='https://github.com/knorth2/project_2_Mindful' target="_blank">Repository</a> 
-        </p>
-        </div>
-
-
-        <a href="https://happy-hound-react-app.herokuapp.com/" target="_blank"><img className="projectImg" src={hh} alt="img of project"></img></a>
-        <div className="project_description">
-        <h4 className="proj_description_title">Happy Hound - Group project</h4>
-        <h5 className="tech_used">
-        De-coupled MERN Stack: Mongoose, Express, React and Node.js with full CRUD 
-        </h5>
-        <p className="proj_description_p">
-          Happy Hound is an e-commerce store specializing in high-end dog accessaries. 
-          <br></br>
-          As group lead, I organized and delegated tasks to fellow colleagues. I built the entire backend utilizing full CRUD functionality. 
-          <br></br>
-         Using react, I rendered it on the front end as well.  
-         <br></br>
-         <br></br> 
-        <a href='https://github.com/mdawood832/Happy-Hound-Back-End' target="_blank">Back-end repository/</a> 
-        <a href='https://github.com/mdawood832/Happy-Hound-Front-End' target="_blank">Front-end repository</a> 
-        </p>
-        </div>
       </div>
-       </div>
-     
+    </div>
   );
 };
 

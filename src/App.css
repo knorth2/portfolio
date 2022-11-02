@@ -14,5 +14,10 @@
   color: white;
 }
 
+h1 a:hover{
+  color: palevioletred;
+  opacity: 0.4;
+}
+
 
 
