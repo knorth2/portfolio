@@ -5,10 +5,16 @@
     margin-left: 20px;
     
   }
+  .connect p{
+    margin-left: 20px;
+    font-size: 20px;
+  }
   
   .connectContainer{
     margin-top: 50px;
     margin-left: 30px;
+   
+   
   }
   
   .connect-underline {
@@ -49,17 +55,20 @@
     font-weight: 400;
     color: #735d78;
   }
-  .footer-button {
+  #resume-button {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
-    border: solid 2px  black;
-    padding: 4px 6px;
-    border-radius: 10px;
-    margin-left: 50px;
+    color: white;
+    background-color: #735d78;
+    width: 10%;
+    padding: 8px 4px 8px 4px;
+    margin-top: 5px;
+    text-align: center;
+   
   }
   
-  .footer-button:hover {
-    opacity: 0.4;
+  #resume-button:hover {
+    background-color: palevioletred;
    
   }

@@ -20,7 +20,7 @@ const Portfolio = () => {
           
           <img
             onClick={() => setShowMemory(true)}
-            alt="ski weather site"
+            alt="memory game"
             src={memory}
           ></img>
 
@@ -31,6 +31,7 @@ const Portfolio = () => {
                 Time to test your mental strength with the classic two-person memory game,
                 Concentration.
               </p>
+              <br></br>
               <div className="code-list">
                 <p>HTML</p>
                 <p>CSS</p>
@@ -63,7 +64,7 @@ const Portfolio = () => {
           
           <img
             onClick={() => setShowMindful(true)}
-            alt="ski weather site"
+            alt="journal entry app"
             src={mindful}
           ></img>
 
@@ -75,6 +76,7 @@ const Portfolio = () => {
                 mindfulness to hopefully redirect your thoughts on a more
                 positive path.
               </p>
+              <br></br>
               <div className="code-list">
                 <p>Node.js</p>
                 <p>Mongoose</p>
@@ -98,14 +100,14 @@ const Portfolio = () => {
               <div className="section-line"></div>
             </div>
           )}
-          <h5 onClick={() => setShowMindful(true)}>Memory Game</h5>
+          <h5 onClick={() => setShowMindful(true)}>Mindful</h5>
         </div>
 
         <div className="portfolio-box" onMouseLeave={() => setShowHappy(false)}>
           
           <img
             onClick={() => setShowHappy(true)}
-            alt="ski weather site"
+            alt="dog e-store"
             src={hh}
           ></img>
 
@@ -117,6 +119,7 @@ const Portfolio = () => {
                 tasks to fellow colleagues. I built the entire backend utilizing
                 full CRUD functionality. 
               </p>
+              <br></br>
               <div className="code-list">
                 <p>Mongoose</p>
                 <p>Express</p>
@@ -147,7 +150,7 @@ const Portfolio = () => {
               <div className="section-line"></div>
             </div>
           )}
-          <h5 onClick={() => setShowHappy(true)}>Memory Game</h5>
+          <h5 onClick={() => setShowHappy(true)}>Happy Hound</h5>
         </div>
 
         
