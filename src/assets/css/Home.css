@@ -1,8 +1,19 @@
 .homeImg{
-max-width: 100%;
+/* max-width: 30%; 
+margin-right: 50px;
+position: absolute right;
+float: right;   */
+/* width: 30%;
+height: 30%;
+object-fit: cover;
+overflow: hidden;*/
+margin-left: 200px; 
+}
+.homeContainer h3{
+    margin-left: 50px;
+    color:  palevioletred;
     
 }
-
 body{
     background: rgb(205, 226, 233);
 }

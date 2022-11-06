@@ -4,7 +4,7 @@
   text-align: left;  
   margin-left: 20px;
 }
-
+@media (min-width: 769px) {
 .portfolio-underline {
   height: 3px;
     background-color:   palevioletred;
@@ -13,7 +13,7 @@
     margin-bottom: 20px;
     margin-left: 10px;
 }
-
+}
   .portfolio-container {
     margin-top: 70px;
     display: flex;
@@ -24,6 +24,7 @@
     margin-right: 20px;
     height: 40vw;
   }
+ 
   .portfolio-container img {
     width: 17vw;
     height: 17vw;
@@ -70,21 +71,21 @@
   transform: rotate(360deg);
 }
 
-/* PORTFOLIO DROPDOWNS ====================================== */
+/* PORTFOLIO DROPDOWNS */
 
 .section-line {
   background-color: black;
   height: 1px;
   margin: 10px 0 8px 0;
 }
-
+@media (min-width: 716px) {
 .dropdown p{
   width: 300px;
   margin: 0 auto;
   line-height: 20px;
   
 }
-
+}
 .code-list {
   display: flex;
   flex-direction: column;
@@ -120,3 +121,60 @@
 
 
 
+/* PORTFOLIO -> MOBILE */
+
+@media (max-width: 768px) {
+  .dropdown p {
+    font-size: 13.8px;
+  }
+  .portfolio-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    text-align: center;
+  }
+  .portfolio-container img {
+    width: 40vw;
+  }
+  .portfolio-container img {
+    width: 40vw;
+  }
+  .dropdown {
+    width: 37vw;
+  }
+  .dropdown p {
+    font-size: 16.4px;
+  }
+  .portfolio-box a {
+    font-size: 15px;
+    padding: 6px 0 6px 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .dropdown p {
+    font-size: 14px;
+  }
+  .portfolio-box a {
+    font-size: 12px;
+    padding: 6px 6px 6px 6px;
+  }
+}
+
+@media (max-width: 350px) {
+  .portfolio-container {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 25px;
+    text-align: center;
+  }
+  .portfolio-container img {
+    width: 80vw;
+  }
+  .dropdown {
+    width: 75vw;
+  }
+}

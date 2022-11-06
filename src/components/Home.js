@@ -1,12 +1,13 @@
-import image from '../assets/files/adventure.png'
+import image from '../assets/files/splash.png'
 import '../assets/css/Home.css';
 
 
 const Home = () => {
     return (
       <div className='homeContainer'>
-      
-      <img className='homeImg' src={image} alt="img of desk"></img>
+      <div className='about-underline'></div>
+      <h3>software engineer with a background in healthcare</h3>
+      <img  className='homeImg' src={image} alt="img of desk"></img>
       
        </div>
       )
