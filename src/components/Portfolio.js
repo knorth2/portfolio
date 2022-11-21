@@ -2,12 +2,15 @@ import "../assets/css/Portfolio.css";
 import memory from "../assets/files/memory_game.png";
 import mindful from "../assets/files/mindful.png";
 import hh from "../assets/files/happy-hound2.png";
+import wine from "../assets/files/wine.png";
 import { useState } from "react";
 
 const Portfolio = () => {
   const [showMemory, setShowMemory] = useState(false);
   const [showMindful, setShowMindful] = useState(false);
   const [showHappy, setShowHappy] = useState(false);
+  const [showWine, setShowWine] = useState(false);
+
   return (
     <div id="portfolio" className="portfolio">
       <h3>Projects</h3>
@@ -151,6 +154,57 @@ const Portfolio = () => {
             </div>
           )}
           <h5 onClick={() => setShowHappy(true)}>Happy Hound</h5>
+        </div>
+
+        <div
+          className="portfolio-box"
+          onMouseLeave={() => setShowWine(false)}
+        >
+          
+          <img
+            onClick={() => setShowWine(true)}
+            alt="wine-cellar"
+            src={wine}
+          ></img>
+
+          {showWine && (
+            <div className="dropdown">
+              <div className="section-line"></div>
+              <p>
+              Wine Cellar is an app for wine cellar management. Created a relational database using postgreSQL in developement for data store, Flask/Python for the api/backend, and Flask-Login for user auth. I utilized React and React-Router for the frontend.
+              </p>
+              <br></br>
+              <div className="code-list">
+                <p>Python</p>
+                <p>Flask</p>
+                <p>React</p>
+                <p>postgreSQL</p>
+                <a
+                  href="https://wine-react-application.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  view site
+                </a>
+                <a
+                  href="https://github.com/knorth2/wine_cellar_frontend.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  github frontend
+                </a>
+                <a
+                  href="https://github.com/knorth2/wine_cellar_backend.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  github backend
+                </a>
+              </div>
+              <div className="section-line"></div>
+            </div>
+          )}
+          <h5 onClick={() => setShowWine(true)}>Wine Cellar</h5>
         </div>
 
         
