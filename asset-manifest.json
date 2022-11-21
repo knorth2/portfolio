@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.be027d87.css",
-    "main.js": "/portfolio/static/js/main.afec6b54.js",
+    "main.css": "/portfolio/static/css/main.c4925cd4.css",
+    "main.js": "/portfolio/static/js/main.b1665aef.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/wine.png": "/portfolio/static/media/wine.c0f51467cdc25058cb70.png",
     "static/media/mindful.png": "/portfolio/static/media/mindful.4bf490d923ecf43ba669.png",
     "static/media/splash.png": "/portfolio/static/media/splash.a74b59f297ec24978a09.png",
     "static/media/happy-hound2.png": "/portfolio/static/media/happy-hound2.8407b8e0a42df13b2c32.png",
@@ -16,12 +17,12 @@
     "static/media/react.png": "/portfolio/static/media/react.3c0e10078bf02858f4db.png",
     "static/media/flask.png": "/portfolio/static/media/flask.ba7ac69916a5e3196f92.png",
     "index.html": "/portfolio/index.html",
-    "main.be027d87.css.map": "/portfolio/static/css/main.be027d87.css.map",
-    "main.afec6b54.js.map": "/portfolio/static/js/main.afec6b54.js.map",
+    "main.c4925cd4.css.map": "/portfolio/static/css/main.c4925cd4.css.map",
+    "main.b1665aef.js.map": "/portfolio/static/js/main.b1665aef.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be027d87.css",
-    "static/js/main.afec6b54.js"
+    "static/css/main.c4925cd4.css",
+    "static/js/main.b1665aef.js"
   ]
 }
