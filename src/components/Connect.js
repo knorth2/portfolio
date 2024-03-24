@@ -2,14 +2,17 @@ import "../assets/css/Connect.css";
 import email from "../assets/graphics/email.png";
 import github from "../assets/graphics/github2.png";
 import linkedin from "../assets/graphics/linkedin.png";
-import resume from "../assets/files/Kayci_North_Resume_2022.pdf";
+import resume from "../assets/files/Kayci_North_resume_2024.pdf";
 
 const Connect = () => {
   return (
     <div className="connect">
       <h3>Connect</h3>
       <div className="connect-underline"></div>
-      <p>I am actively looking for full-time employment or an apprenticeship in the Greater Salt Lake Region. Please feel free to reach out if you think I would be a good fit for your team!</p>
+      <p>I am a customer success expert with hands-on experience in a SaaS startup. 
+ </p>
+ <p>I am passionate about positive customer experiences having 16+ years working as a PTA with a 'customer first mindset'. </p>
+ <p>I am seeking a dynamic job that cultivates creative problem-solving, organization and helping others find solutions to problems.</p>
       <div className="connectContainer">
         <div className="connect-links">
           <span>kayci.north@gmail.com</span>

@@ -23,12 +23,12 @@ const About = (props) => {
 <div className='about-underline'></div>
 <div className='about-container'>
 <img alt="kayci headshot" src="https://i.imgur.com/ZKphsDC.jpg"></img>
-<p>Hi! I'm Kayci, a full-stack software engineer who really loves organization and a good challenge. <br></br>
+<p>Hi! I'm Kayci, a Customer Success Expert who really loves organization and a good challenge. <br></br>
 Strong skills in problem solving and critical thinking. <br></br>
-15 years of professional expertise specializing in detail 🤓<br></br>
+16 years of professional expertise specializing in detail 🤓<br></br>
 Over a decade of leadership experience</p>
 </div>
-<h4>Skills</h4>
+<h4>Technical Skills</h4>
 
 <div className='skills-container'>
 <div className='skill-icon'>
