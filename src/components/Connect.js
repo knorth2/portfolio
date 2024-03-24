@@ -11,7 +11,7 @@ const Connect = () => {
       <div className="connect-underline"></div>
       <p>I am a customer success expert with hands-on experience in a SaaS startup. 
  </p>
- <p>I am passionate about positive customer experiences having 16+ years working as a PTA with a 'customer first mindset'. </p>
+ 
  <p>I am seeking a dynamic job that cultivates creative problem-solving, organization and helping others find solutions to problems.</p>
       <div className="connectContainer">
         <div className="connect-links">
